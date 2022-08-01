@@ -61,7 +61,7 @@ const Projects = () => {
                     ))}
                     <div className='slideInLeft col-span-1 sm:col-span-2 lg:col-span-2'>
                         <div className='flex flex-col'>
-                            <button type='submit' className='ease-in duration-100 flex gap-3 items-center justify-center rounded-full hover:bg-white hover:text-[#1A1C18] text-xl font-bold px-3 py-5 hover:ease-in hover:duration-100 bg-[#1c1c1c] border tracking-wide border-white/50 text-white hover:scale-105'> <BsBehance className='hover:text-[#171717] hover:duration-100 hover:ease-in' style={{ fontSize: 25 }} /> EXPLORE MORE</button>
+                            <a href='https://www.behance.net/abdurehsaleemi' target={'_blank'} className='ease-in duration-100 flex gap-3 items-center justify-center rounded-full hover:bg-white hover:text-[#1A1C18] text-xl font-bold px-3 py-5 hover:ease-in hover:duration-100 bg-[#1c1c1c] border tracking-wide border-white/50 text-white hover:scale-105'> <BsBehance className='hover:text-[#171717] hover:duration-100 hover:ease-in' style={{ fontSize: 25 }} /> EXPLORE MORE</a>
                         </div>
                     </div>
                 </div>
@@ -78,7 +78,7 @@ const Projects = () => {
                             <h1 className='text-xl text-white/75 font-normal text-center lg:text-left uppercase'>Visit my Github Profile for more info !</h1>
 
                             <div className='flex flex-col w-auto '>
-                                <a className='ease-in cursor-pointer duration-100 flex gap-3 items-center justify-center rounded-full hover:bg-white hover:text-[#1A1C18] text-xl font-bold px-3 py-5 hover:ease-in hover:duration-100 border tracking-wide border-white/50 text-white uppercase hover:scale-105'> <FaGithubAlt className='hover:text-[#171717] hover:duration-100 hover:ease-in' style={{ fontSize: 20 }} /> Github Profile </a>
+                                <a href='https://github.com/AbdurehmanSaleemi' target={'_blank'} className='ease-in cursor-pointer duration-100 flex gap-3 items-center justify-center rounded-full hover:bg-white hover:text-[#1A1C18] text-xl font-bold px-3 py-5 hover:ease-in hover:duration-100 border tracking-wide border-white/50 text-white uppercase hover:scale-105'> <FaGithubAlt className='hover:text-[#171717] hover:duration-100 hover:ease-in' style={{ fontSize: 20 }} /> Github Profile </a>
                             </div>
                         </div>
                     </div>

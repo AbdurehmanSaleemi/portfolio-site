@@ -8,7 +8,6 @@ import Projects from './components/Projects'
 import Error404 from './components/Error404.jsx'
 
 function App() {
-
   return (
     <Router>
       <div className="App">
