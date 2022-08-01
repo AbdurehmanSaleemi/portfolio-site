@@ -24,8 +24,8 @@ const LeftSide = () => {
                     </div>
 
                     <div className='flex flex-col lg:flex-row gap-12 space-y-5 lg:space-y-0 lg:space-x-5 w-full lg:justify-start justify-center items-center lg:items-stretch'>
-                        <button className='ease-in duration-100 inline-flex gap-3 items-center justify-center rounded-full hover:bg-white hover:text-[#1A1C18] text-lg font-bold px-3 py-5 w-56 hover:ease-in hover:duration-100 bg-[#1c1c1c] border border-white/50 text-white hover:scale-110'>UI/UX Projects <BiRocket className='hover:text-[#171717] hover:duration-100 hover:ease-in' style={{ fontSize: 30 }} /> </button>
-                        <button className='ease-in duration-100 inline-flex items-center justify-center text-white text-2xl font-bold w-36 hover:border-b-2 hover:ease-in hover:duration-100 hover:scale-110'>Contact Me </button>
+                        <button className='ease-in duration-100 inline-flex gap-3 items-center justify-center rounded-full hover:bg-white hover:text-[#1A1C18] text-md font-bold px-4 py-5 w-60 hover:ease-in hover:duration-100 bg-[#1c1c1c] border border-white/50 text-white hover:scale-110'>UI/UX PROJECTS <BiRocket className='hover:text-[#171717] hover:duration-100 hover:ease-in' style={{ fontSize: 30 }} /> </button>
+                        <button className='ease-in duration-100 inline-flex items-center justify-center text-white text-xl font-bold w-36 hover:border-b-2 hover:ease-in hover:duration-100 hover:scale-110'>CONTACT ME </button>
                     </div>
                 </div>
             </div>

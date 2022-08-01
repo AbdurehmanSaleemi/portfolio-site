@@ -35,10 +35,10 @@ const Menu = () => {
 
     return (
         <div>
-            <div className="flex flex-row lg:gap-24 md:16 font-regFont justify-center mt-5">
+            <div className="flex flex-col space-y-10 lg:bg-transparent bg-[#1c1c1c] lg:flex-row lg:gap-24 md:16 font-regFont justify-center mt-5 text-lg    ">
                 {menuItems.map(item => {
                     return (<ul key={item.id}>
-                        <li key={item.id} className={`text-white ${item.path === location.pathname ? `font-bold` : `font-normal`}`}><Link key={item.id} to={item.path}>{item.menuItemName}</Link></li>
+                        <li key={item.id} className={`text-white text-center ${item.path === location.pathname ? `font-bold` : `font-normal`} uppercase`}><Link key={item.id} to={item.path}>{item.menuItemName}</Link></li>
                     </ul>
                     )
                 }

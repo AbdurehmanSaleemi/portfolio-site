@@ -6,6 +6,7 @@ import About from './components/About'
 import Contact from './components/Contact'
 import Projects from './components/Projects'
 import Error404 from './components/Error404.jsx'
+import HamburgerMenu from './components/HamburgerMenu'
 
 function App() {
 

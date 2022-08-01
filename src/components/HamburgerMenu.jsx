@@ -3,13 +3,14 @@ import Menu from './Menu'
 import Logo from './Logo'
 import LeftSide from './LeftSide'
 import RightSide from './RightSide'
+import { FiSend } from "react-icons/fi";
 
-
-const Home = () => {
+const HamburgerMenu = () => {
     return (
         <div className="relative flex lg:flex-row space-y-0 md:flex-col flex-col h-screen lg:overflow-hidden">
             <div className="flex flex-col space-y-24 md:space-y-30 lg:space-y-44 p-4 bg-[#1c1c1c] w-full">
                 <Logo />
+                
                 <LeftSide />
                 <div className='flex flex-row p-1'></div>
             </div>
@@ -25,4 +26,4 @@ const Home = () => {
     )
 }
 
-export default Home
+export default HamburgerMenu

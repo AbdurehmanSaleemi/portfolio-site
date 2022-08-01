@@ -19,7 +19,7 @@ const About = () => {
                 <div className='flex flex-row p-1'></div>
             </div>
             <div className="text-white bg-[#171717] p-4 w-full">
-                <div className="flex flex-col lg:space-y-40 md:space-y-16 space-y-0 p-1 w-full">
+                <div className="flex flex-col lg:space-y-36 md:space-y-16 space-y-0 p-1 w-full">
                     <div className="hidden md:hidden lg:block">
                         <Menu />
                     </div>
@@ -28,7 +28,7 @@ const About = () => {
                         <div className='flex flex-col lg:w-1/2 w-10/12 space-y-10 '>
                             <div>
                                 <div className="flex flex-row justify-between mb-1">
-                                    <span className="text-base font-medium text-white/70">HTML</span>
+                                    <span className="text-base font-medium text-white/70">Figma</span>
                                     <span className="text-md font-medium text-white/70">95%</span>
                                 </div>
                                 <div className="w-full bg-[#171717] rounded-full outline outline-1 p-1">
@@ -73,11 +73,11 @@ const About = () => {
                             </div>
                             <div>
                                 <div className="flex flex-row justify-between mb-1">
-                                    <span className="text-base font-medium text-white/70">C++</span>
-                                    <span className="text-md font-medium text-white/70">95%</span>
+                                    <span className="text-base font-medium text-white/70">UI/UX</span>
+                                    <span className="text-md font-medium text-white/70">80%</span>
                                 </div>
                                 <div className="w-full bg-[#171717] rounded-full outline outline-1 p-1">
-                                    <div className="bg-white h-3 rounded-full w-11/12"></div>
+                                    <div className="bg-white h-3 rounded-full w-9/12"></div>
                                 </div>
                             </div>
                         </div>
