@@ -1,8 +1,6 @@
 import React from 'react'
 import Menu from './Menu'
 import Logo from './Logo'
-import LeftSide from './LeftSide'
-import RightSide from './RightSide'
 import { FiSend } from "react-icons/fi";
 import { useState } from 'react'
 import emailJS from 'emailjs-com';

@@ -3,7 +3,6 @@ import Menu from './Menu'
 import Logo from './Logo'
 import LeftSide from './LeftSide'
 import RightSide from './RightSide'
-import { useState } from 'react'
 import { Link } from 'react-router-dom'
 
 const Error404 = () => {

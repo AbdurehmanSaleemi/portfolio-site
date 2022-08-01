@@ -1,8 +1,6 @@
 import React from 'react'
 import Menu from './Menu'
 import Logo from './Logo'
-import LeftSide from './LeftSide'
-import RightSide from './RightSide'
 import '../index.css'
 
 const About = () => {
