@@ -4,7 +4,7 @@ import Logo from './Logo'
 import '../index.css'
 
 const About = () => {
-    const myDescription = "Hi, I am Abdurehman Saleemi. I am a 21 year old developer and designer from Pakistan. I started designing when I was 12. I was introduced to programming when at the age of 15 I started participating in volunteer programming programs. Being an enthusiastic problem solver from a young age drove me to start learning programming. Fast forward to a couple years, I am 20 years old and proficient in C++, PHP, and Flutter."
+    const myDescription = "Hi, I am Abdurehman Saleemi. I am a 21Y/O developer and designer from Pakistan. I started designing when I was 12. I was introduced to Programming at the age of 15. I started participating in volunteer graphic designing programs. Being an enthusiastic problem solver from a young age drove me to start learning to program. Fast forward a couple of years, I am 21 years old and proficient in C++, PHP, and Flutter."
     return (
         <div className="relative font-regFont flex lg:flex-row space-y-0 md:flex-col flex-col h-screen lg:overflow-hidden">
             <div className="flex items-center flex-col space-y-24 md:space-y-30 lg:space-y-56 p-4 bg-[#1c1c1c] w-full">
